@@ -12,9 +12,15 @@ h1 {
     padding: 10px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
 img {
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
     padding: 10px 0;
 }
 
@@ -23,8 +29,6 @@ img {
 
 @media (min-width: 750px) {
     .container {
-        display: flex;
-        flex-direction: column;
         text-align: center;
     }
 
