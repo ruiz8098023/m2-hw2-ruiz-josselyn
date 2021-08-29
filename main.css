@@ -8,9 +8,14 @@ body {
     text-align: center;
 }
 
+h1 {
+    padding: 10px;
+}
+
 img {
     width: 100%;
-    max-width: 500px;
+    max-width: 300px;
+    padding: 10px 0;
 }
 
 
@@ -27,4 +32,5 @@ img {
         width: 100%;
         max-width: 700px;
     }
+
 }
